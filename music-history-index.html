@@ -1,0 +1,93 @@
+<!DOCTYPE = html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel= "stylesheet" type="text/css" href="music-history-style.css">
+  <title>Nashville Software School</title>
+</head>
+
+
+<div class= "flex-container">
+<header>
+<nav>
+  <ul>
+    <tr>
+      <a>View Music</a>
+    </tr> 
+    <tr>|</tr>
+    <tr>
+      <a href="#">Add Music</a>
+    </tr>
+    <tr>|</tr>
+    <tr>
+      <a href="#">Profile</a>
+    </tr>
+    <tr>|</tr>
+   </ul> 
+</nav>
+
+</header>
+
+<body class= "flex-container">
+ 
+<section class="flex-item sidebar_left">
+          <ul>
+            <div>Song Length:</div>
+              <input type="range">
+            <br>
+            <br>
+            <div>Artist:</div>
+            <br>
+                <select class="artist-type">
+                  <option>Allman Brothers</option>
+                  <option>Drive-by Truckers</option>
+                  <option>Todd Snider</option>
+                  <option>Widespread Panic</option>
+                  <option>Outkast</option>
+                </select>
+            <br>
+            <br>
+            <div>Album:</div>
+            <br>
+                <select class="artist-name">
+                  <option>Eat a Peach</option>
+                  <option>The Dirty South</option>
+                  <option>The Devil you Know</option>
+                  <option>Live in the Classic City</option>
+                  <option>ATLiens</option>
+                </select>
+            <br>
+            <br>
+            <div>Genre:</div>
+            <br>
+              <div id="checkbox-container">   
+              <div class="checkbox-container-left">   
+                  
+                  <input type="checkbox"  name"rock">Rock<br>
+                  <input type="checkbox"  name"pop">Pop<br>
+                  <input type="checkbox"  name"blues">Blues<br>
+               
+              </div>
+              <div class="checkbox-container-right">
+              
+                  <input type="checkbox"  name"Classical">Classical<br>
+                  <input type="checkbox" name"jazz">Jazz<br>
+                  <input type="checkbox"  name"hip-hop">Hip Hop<br>      
+             
+             </div>
+             </div>
+             <br>
+             <br>
+            <div class= "genre-button">
+            <button type= "submit">Filter</button>
+            </div>
+             </section>
+<section class="flex-item main">
+  <div id= 'song-list'>        
+  </div>
+</section>
+</div>
+<script type= "text/javascript" src= "music-history-main.js"></script>
+</body>
+</html>
