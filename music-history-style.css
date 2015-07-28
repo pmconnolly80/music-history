@@ -17,7 +17,7 @@ header {
 nav {
   border: 2px solid black;
   background-color: #FFB4B0;
-  flex-grow: 10;
+  flex-grow: 5;
   margin: 4px;
   height: 10%;
 }
@@ -25,20 +25,22 @@ nav {
 .sidebar_left {
   background-color: #4DD7FA;
   border: 2px solid black;
-  flex-grow: 1;
   padding: 5px;
   margin: 4px;
   height: 75%;
+  float: left;
 }
 
-.main {
+.right-container {
+  float: right;
+  margin: center;
   border: 2px solid black;
   background-color: #FEFAC0;
-  flex-grow: 5;
   padding: 5px;
   margin: 4px;
   height: 75%;
-  
+  flex: 50%;
+ 
 }
 
 #checkbox-container {
